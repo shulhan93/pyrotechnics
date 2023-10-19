@@ -1,0 +1,81 @@
+.header {
+  background-color: $white;
+}
+
+.header-content {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__phone {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $gray-5;
+}
+
+.header__time {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: $gray-4;
+}
+
+.header__socials {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header__socials li {
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.header__controlls {
+  display: flex;
+  gap: 3rem;
+
+  button:hover svg path {
+    fill: red;
+    stroke: red;
+  }
+}
+
+.favorite {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  background-color: $gray-3;
+  width: 25px;
+  height: 25px;
+
+  &_active {
+    background-color: $red;
+    color: $white;
+  }
+}
+
+.header__cart {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header__cart-btn {
+}
+
+.header__cart-counter {
+}
