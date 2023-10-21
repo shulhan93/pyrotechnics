@@ -4,6 +4,7 @@
 @import './components/header.scss';
 @import './components/nav.scss';
 @import './components/button.scss';
+@import './components/hero.scss';
 
 *,
 *::after,
@@ -12,6 +13,7 @@
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
 }
 
