@@ -2,6 +2,7 @@
 @import './var';
 @import './container.scss';
 @import './components/header.scss';
+@import './components/nav.scss';
 @import './components/button.scss';
 
 *,
@@ -32,6 +33,7 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: 'Rubik', sans-serif;
   background: $white;
   height: 100%;
