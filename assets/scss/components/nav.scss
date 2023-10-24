@@ -1,5 +1,7 @@
 .nav {
+  position: relative;
   background-color: $red;
+  z-index: 10;
 }
 
 .menu {
@@ -51,6 +53,7 @@
   }
 
   .submenu {
+    background-color: $white;
     width: 300px;
     position: absolute;
     color: $gray-5;

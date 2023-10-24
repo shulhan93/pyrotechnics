@@ -73,6 +73,11 @@
   border-radius: 100%;
   background-color: $white;
   cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $yellow;
+  }
 
   &::after {
     content: '';
@@ -92,4 +97,9 @@
   &::after {
     background: url('/assets//icons/arrow-next.svg');
   }
+}
+
+.swiper-button-disabled {
+  pointer-events: none;
+  background-color: $gray-3;
 }
