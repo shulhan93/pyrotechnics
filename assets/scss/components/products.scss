@@ -8,6 +8,11 @@
 }
 .products__title {
 }
+.products__btn {
+  margin-top: 6.5rem;
+  display: flex;
+  justify-content: center;
+}
 .products__subtitle {
   margin-top: 2.8rem;
   margin-bottom: 4rem;
@@ -16,6 +21,7 @@
   color: $text;
 }
 .tabs {
+  margin-bottom: 3rem;
   display: flex;
   gap: 1rem;
 }
@@ -44,9 +50,10 @@
     }
   }
 }
-.tab__icon {
-}
 .tabs-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 4rem;
 }
 .product-card {
 }

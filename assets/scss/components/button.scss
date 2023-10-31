@@ -4,4 +4,21 @@
   background: $red;
   color: $white;
   text-transform: uppercase;
+  transition: all 0.3s;
+
+  &:hover {
+    background: $grad;
+  }
+
+  &_border {
+    background-color: $white;
+    border: 1px solid $red;
+    color: $red;
+
+    &:hover {
+      background: $bg;
+      border-color: $bg;
+      color: $gray-5;
+    }
+  }
 }
